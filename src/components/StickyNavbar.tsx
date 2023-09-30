@@ -66,6 +66,12 @@ export function StickyNavbar() {
 					<Button
 						variant="gradient"
 						size="sm"
+						onClick={() =>
+							window.open(
+								`https://www.signupgenius.com/go/30E0B4DA5A82FA31-community`,
+								"_blank"
+							)
+						}
 						className="hidden lg:inline-block">
 						<span>Volunteer</span>
 					</Button>
@@ -107,7 +113,17 @@ export function StickyNavbar() {
 			</div>
 			<Collapse open={openNav}>
 				{navList}
-				<Button variant="gradient" size="sm" fullWidth className="mb-2">
+				<Button
+					variant="gradient"
+					size="sm"
+					fullWidth
+					className="mb-2"
+					onClick={() =>
+						window.open(
+							`https://www.signupgenius.com/go/30E0B4DA5A82FA31-community`,
+							"_blank"
+						)
+					}>
 					<span>Volunteer</span>
 				</Button>
 			</Collapse>

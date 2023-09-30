@@ -10,10 +10,10 @@ export default function page() {
 				Please check with us if you are unsure of your donation item before
 				dropping it off
 			</p>
-			<div className="flex justify-around">
+			<div className="flex p-5 justify-around">
 				<div>
 					<h2 className="font-semibold">WE GRATEFULLY ACCEPT</h2>
-					<ul>
+					<ul className="text-sm">
 						<li>Clothing (gently worn or new)</li>
 						<li>Footwear</li>
 						<li>Books</li>
@@ -31,7 +31,7 @@ export default function page() {
 				</div>
 				<div>
 					<h2 className="font-semibold">WE ARE UNABLE TO ACCEPT</h2>
-					<ul>
+					<ul className="text-sm">
 						<li>Appliances</li>
 						<li>Printers</li>
 						<li>Baby equipment</li>

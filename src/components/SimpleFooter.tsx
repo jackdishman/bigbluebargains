@@ -13,6 +13,14 @@ export function SimpleFooter() {
 					href="#"
 					color="blue-gray"
 					className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500">
+					<a href="https://maps.app.goo.gl/89KdTNZqWmNyDocs7" target="_blank">
+						Directions
+					</a>
+				</Typography>
+				<Typography
+					href="#"
+					color="blue-gray"
+					className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500">
 					<a
 						href="mailto:BIGBLUEBARGAINS@GMAIL.COM"
 						target="_blank"

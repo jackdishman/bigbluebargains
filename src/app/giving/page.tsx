@@ -22,13 +22,16 @@ export default function page() {
 			</Typography>
 			<Typography
 				color="blue-gray"
-				className="font-normal text-center mb-5 underline font-semibold"
+				className="text-center mb-5 font-semibold"
 				variant="h3">
 				Community Donations & Participation
 			</Typography>
 			<div className="flex flex-col justify-around sm:flex-row mb-5">
 				<div>
-					<Typography color="blue-gray" className="font-normal" variant="h4">
+					<Typography
+						color="blue-gray"
+						className="font-normal underline"
+						variant="h4">
 						Some programs BBB has funded:
 					</Typography>
 					<ul>
@@ -46,7 +49,10 @@ export default function page() {
 					</ul>
 				</div>
 				<div>
-					<Typography color="blue-gray" className="font-normal" variant="h4">
+					<Typography
+						color="blue-gray"
+						className="font-normal underline"
+						variant="h4">
 						We have also donated items for:
 					</Typography>
 					<ul>
