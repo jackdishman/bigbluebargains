@@ -13,9 +13,9 @@ export default function HomePage() {
 	];
 	return (
 		<div>
-			<Typography variant="h2" className="text-center p-5">
-				Raising $$$ for community charitable causes while working with the
-				community to recycle & reuse!
+			<Typography variant="h1" className="text-center p-5">
+				Raising $$$ for community charitable causes in Swampscott while working
+				with the community to recycle & reuse!
 			</Typography>
 			<div className="flex flex-col sm:flex-row p-5 leading-relaxed">
 				<div className=" w-full sm:w-1/3">
